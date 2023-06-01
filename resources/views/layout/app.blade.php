@@ -12,7 +12,7 @@
             <a href="{{ route('landing') }}">LANDING PAGE</a>
             <a href="{{ route('home') }}">HOME</a>
             <a href="{{ route('profile') }}">PROFILE</a>
-            <a href="{{ route('event') }}">EVENTS</a>
+            <a href="{{ route('events') }}">EVENTS</a>
             <a href="{{ route('news') }}">NEWS</a>
             <a href="{{ route('contacts') }}">CONTACT</a>
         </nav>
