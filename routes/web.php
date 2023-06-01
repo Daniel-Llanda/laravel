@@ -27,7 +27,7 @@ Route::get('/profile', [profileController::class, 'index'])->name('profile');
 Route::get('/events', [eventsController::class, 'index'])->name('events');
 Route::get('/news', [newsController::class, 'index'])->name('news');
 Route::get('/contacts', [contactController::class, 'index'])->name('contacts');
-Route::post('/contact_out', [contactController::class, 'submit'])->name('contact_out');
+Route::post('/contact_out', [contactController::class, 'send'])->name('contact_out');
 
 // Route::get('/home', function(){
 //     return view('home');
